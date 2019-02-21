@@ -21,8 +21,9 @@ def speak_to_grandma(sentence)
     "NO, NOT SINCE 1938!"
   else sentence !=sentence.upcase
     puts "HUH?! SPEAK UP, SONNY!"
+    "HUH?! SPEAK UP, SONNY!"
   end
 end
 
-puts "HELLO, GRANDMA!"
-speak_to_grandma("HELLO, GRANDMA!")
+puts "I LOVE YOU GRANDMA!"
+speak_to_grandma("I LOVE YOU GRANDMA!")
