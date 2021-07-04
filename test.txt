@@ -1,0 +1,16 @@
+Run options: include {:focus=>true}
+
+All examples were filtered out; ignoring {:focus=>true}
+
+#speak_to_grandma
+  responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!
+  responds with HUH?! SPEAK UP, SONNY! unless you are shouting
+  responds with HUH?! SPEAK UP, SONNY! for a second time
+  responds with NO, NOT SINCE 1938! when she can hear you
+  responds with NO, NOT SINCE 1938! for a second time
+  responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!
+  responds with HUH?! SPEAK UP, SONNY! unless you are shouting
+
+Finished in 0.00234 seconds (files took 0.55523 seconds to load)
+7 examples, 0 failures
+
