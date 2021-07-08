@@ -1,0 +1,77 @@
+Run options: include {:focus=>true}
+
+All examples were filtered out; ignoring {:focus=>true}
+
+#speak_to_grandma
+[31m  responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA! (FAILED - 1)[0m
+[31m  responds with HUH?! SPEAK UP, SONNY! unless you are shouting (FAILED - 2)[0m
+[31m  responds with HUH?! SPEAK UP, SONNY! for a second time (FAILED - 3)[0m
+[31m  responds with NO, NOT SINCE 1938! when she can hear you (FAILED - 4)[0m
+[31m  responds with NO, NOT SINCE 1938! for a second time (FAILED - 5)[0m
+[31m  responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA! (FAILED - 6)[0m
+[31m  responds with HUH?! SPEAK UP, SONNY! unless you are shouting (FAILED - 7)[0m
+
+Failures:
+
+  1) #speak_to_grandma responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!
+     [31mFailure/Error: [0mexpect(speak_to_grandma([31m[1;31m'[0m[31mI LOVE YOU GRANDMA![1;31m'[0m[31m[0m)).to eq [31m[1;31m'[0m[31mI LOVE YOU TOO PUMPKIN![1;31m'[0m[31m[0m[0m
+     [31m[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `speak_to_grandma' for #<RSpec::ExampleGroups::SpeakToGrandma:0x00000001a2d4c8>[0m
+     [36m# ./spec/grandma_spec.rb:3:in `block (2 levels) in <top (required)>'[0m
+
+  2) #speak_to_grandma responds with HUH?! SPEAK UP, SONNY! unless you are shouting
+     [31mFailure/Error: [0mexpect(speak_to_grandma([31m[1;31m'[0m[31mHi Nana, how are you?[1;31m'[0m[31m[0m)).to eq [31m[1;31m'[0m[31mHUH?! SPEAK UP, SONNY![1;31m'[0m[31m[0m[0m
+     [31m[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `speak_to_grandma' for #<RSpec::ExampleGroups::SpeakToGrandma:0x00000001a27bb8>[0m
+     [36m# ./spec/grandma_spec.rb:7:in `block (2 levels) in <top (required)>'[0m
+
+  3) #speak_to_grandma responds with HUH?! SPEAK UP, SONNY! for a second time
+     [31mFailure/Error: [0mexpect(speak_to_grandma([31m[1;31m'[0m[31mHi![1;31m'[0m[31m[0m)).to eq [31m[1;31m'[0m[31mHUH?! SPEAK UP, SONNY![1;31m'[0m[31m[0m[0m
+     [31m[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `speak_to_grandma' for #<RSpec::ExampleGroups::SpeakToGrandma:0x00000001a26588>[0m
+     [36m# ./spec/grandma_spec.rb:11:in `block (2 levels) in <top (required)>'[0m
+
+  4) #speak_to_grandma responds with NO, NOT SINCE 1938! when she can hear you
+     [31mFailure/Error: [0mexpect(speak_to_grandma([31m[1;31m'[0m[31mWHAT DID YOU EAT TODAY?[1;31m'[0m[31m[0m)).to eq [31m[1;31m"[0m[31mNO, NOT SINCE 1938![1;31m"[0m[31m[0m[0m
+     [31m[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `speak_to_grandma' for #<RSpec::ExampleGroups::SpeakToGrandma:0x00000001a24f58>[0m
+     [36m# ./spec/grandma_spec.rb:15:in `block (2 levels) in <top (required)>'[0m
+
+  5) #speak_to_grandma responds with NO, NOT SINCE 1938! for a second time
+     [31mFailure/Error: [0mexpect(speak_to_grandma([31m[1;31m'[0m[31mWHAT?[1;31m'[0m[31m[0m)).to eq [31m[1;31m"[0m[31mNO, NOT SINCE 1938![1;31m"[0m[31m[0m[0m
+     [31m[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `speak_to_grandma' for #<RSpec::ExampleGroups::SpeakToGrandma:0x00000001a0b3c8>[0m
+     [36m# ./spec/grandma_spec.rb:19:in `block (2 levels) in <top (required)>'[0m
+
+  6) #speak_to_grandma responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!
+     [31mFailure/Error: [0mexpect(speak_to_grandma([31m[1;31m'[0m[31mI LOVE YOU GRANDMA![1;31m'[0m[31m[0m)).to eq [31m[1;31m'[0m[31mI LOVE YOU TOO PUMPKIN![1;31m'[0m[31m[0m[0m
+     [31m[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `speak_to_grandma' for #<RSpec::ExampleGroups::SpeakToGrandma:0x00000001a093e8>[0m
+     [36m# ./spec/grandma_spec.rb:23:in `block (2 levels) in <top (required)>'[0m
+
+  7) #speak_to_grandma responds with HUH?! SPEAK UP, SONNY! unless you are shouting
+     [31mFailure/Error: [0mexpect(speak_to_grandma([31m[1;31m'[0m[31mHi Nana, how are you?[1;31m'[0m[31m[0m)).to eq [31m[1;31m'[0m[31mHUH?! SPEAK UP, SONNY![1;31m'[0m[31m[0m[0m
+     [31m[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `speak_to_grandma' for #<RSpec::ExampleGroups::SpeakToGrandma:0x00000001a07688>[0m
+     [36m# ./spec/grandma_spec.rb:27:in `block (2 levels) in <top (required)>'[0m
+
+Finished in 0.00129 seconds (files took 0.07033 seconds to load)
+[31m7 examples, 7 failures[0m
+
+Failed examples:
+
+[31mrspec ./spec/grandma_spec.rb:2[0m [36m# #speak_to_grandma responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA![0m
+[31mrspec ./spec/grandma_spec.rb:6[0m [36m# #speak_to_grandma responds with HUH?! SPEAK UP, SONNY! unless you are shouting[0m
+[31mrspec ./spec/grandma_spec.rb:10[0m [36m# #speak_to_grandma responds with HUH?! SPEAK UP, SONNY! for a second time[0m
+[31mrspec ./spec/grandma_spec.rb:14[0m [36m# #speak_to_grandma responds with NO, NOT SINCE 1938! when she can hear you[0m
+[31mrspec ./spec/grandma_spec.rb:18[0m [36m# #speak_to_grandma responds with NO, NOT SINCE 1938! for a second time[0m
+[31mrspec ./spec/grandma_spec.rb:22[0m [36m# #speak_to_grandma responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA![0m
+[31mrspec ./spec/grandma_spec.rb:26[0m [36m# #speak_to_grandma responds with HUH?! SPEAK UP, SONNY! unless you are shouting[0m
+
